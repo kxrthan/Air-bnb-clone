@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Details Page</Details></title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/2e15e7fa97.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navBar" class="navbar-white">
+        <a href="./index.html"><img src="./Assets/logo-red.png" class="logo"></a>
+        
+        <ul class="nav-links">
+            <li><a href="#" class="active">Popular Places</a></li>
+            <li><a href="#">Travel Outsides</a></li>
+            <li><a href="./listing.html">Online Packages</a></li>
+            
+
+        </ul>
+        <a href="#" class="register-btn">Register Now</a>
+        <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+    </nav>
+    <div class="house-details">
+        <div class="house-title">
+            <h1>Wenge House</h1>
+            <div class="row">
+                <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <span>245 Reviews</span>
+                </div>
+                        <div>
+                            <p>Location Mangaluru Karnataka,DK</p>
+                        </div>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="gallery-img-1"><img src="./Assets/house-1.png"></div>
+            <div><img src="./Assets/house-2.png"></div>
+            <div><img src="./Assets/house-3.png"></div>
+            <div><img src="./Assets/house-4.png"></div>
+            <div><img src="./Assets/house-5.png"></div>
+            
+        </div>
+        <div class="small-details">
+            <h2>Entire rental unit hosted by Brandon</h2>
+            <p>2 guest &nbsp;&nbsp; 2 beds &nbsp; &nbsp; 1 bathroom </p>
+            <h4>₹7000 / day</h4>
+        </div>
+        <hr class="line">
+        <form class="check-form">
+            <div>
+                <label> Check-in</label>
+                <input type="text" placeholder="Add Date">
+            </div>
+            <div>
+                <label> Check-out</label>
+                <input type="text" placeholder="Add Date">
+            </div>
+            <div class="guest-field">
+                <label> Guest</label>
+                <input type="text" placeholder="2  guest">
+            </div>
+            <button type="submit">Check Availability</button>
+        </form>
+
+        <ul class="details-list">
+            <li><i class="fa-solid fa-house"></i>Entire Home
+            <span>You will have the entire flat for you. </span>
+        </li>
+        <li><i class="fa-solid fa-paintbrush"></i>Enhanced Clean
+            <span>This host has committed to staybnb's cleaning process. </span>
+        </li>
+        <li><i class="fa-solid fa-location-dot"></i>Great Location
+            <span>90% of recent guest gave the loaction a 5 star rating. </span>
+        </li>
+        <li><i class="fa-solid fa-heart"></i>Great check-in Exp
+            <span>100% of recent guest gave the check-in process a 5 star rating.</span>
+        </li>
+            
+
+        </ul>
+        <hr class="line">
+        <p class="home-desc">Guets will be allocate on the gorund floor according to Availability.you get your own bedheet thank you </p>
+        <hr class="line">
+        <h3>Location on map</h3>
+        <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1156.3359929904987!2d74.83713499963045!3d12.879715942110773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba35a5b15861eff%3A0x69dc7007987f0db1!2sCrystal%20Apartments!5e0!3m2!1sen!2sin!4v1700634014554!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <b>Mangaluru,Karnataka</b>
+        <p>It's like home away from home. </p>
+    
+    <hr class="line">
+    <div class="host">
+        <img src="./Assets/host.png">
+        <div>
+            <h2>Hosted by ....</h2>
+            <p><span>
+                <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        
+
+            </span>&nbsp; &nbsp; 245 reviews &nbsp; &nbsp; Response rate 100% &nbsp; &nbsp; Response time 60 min<p>
+        </div>
+    </div>
+    <a href="#" class="contact-host">Contact Host</a>
+
+</div>
+<div class="contianer">
+    <div class="footer">
+        <a href="https://www.facebook.com/airbnb/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.youtube.com/airbnb"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://twitter.com/airbnb?lang=en"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/airbnb/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/airbnb"><i class="fa-brands fa-linkedin"></i></a>
+        <hr>
+        <p>Copyright @ 2023</p>
+    </div>
+</div>
+<script>
+    var navBar = document.getElementById("navBar");
+    function togglebtn(){
+        navBar.classList.toggle("hidemenu");
+    }
+</script>
+
+    
+
+
+
+
+</body>
+</html>
